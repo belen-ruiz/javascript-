@@ -44,7 +44,7 @@ function mostrarCatalogo(array) {
         nuevoProducto.innerHTML = 
         `<div id="${producto.id}" class="card productoCard" style="width: 18rem;">
                   
-          <img class="card-img-top" style="height: 250px;"src="../img/ropa${producto.id}.jpg " alt="${producto.cat}">
+          <img class="card-img-top" style="height: 250px;"src="img/ropa${producto.id}.jpg " alt="${producto.cat}">
   
           <div class="card-body">
               <h4 class="card-title">${producto.cat}</h4>
